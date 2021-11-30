@@ -18,6 +18,10 @@ const IndexPage = () => (
       alt="A Gatsby astronaut"
       style={{ marginBottom: `1.45rem` }}
     />
+
+    {/* turn into component later */}
+    <button className="Button--primary">primary</button>
+    <button className="Button--secondary">secondary</button>
     <p>
       <Link to="/page-2/">Go to page 2</Link> <br />
       <Link to="/using-typescript/">Go to "Using TypeScript"</Link> <br />
