@@ -6,7 +6,6 @@ import { Link } from "gatsby"
 
 const NavItem = styled(Link)`
   text-decoration: none;
-  color: #111;
   display: inline-block;
   white-space: nowrap;
   margin: 0 1vw;

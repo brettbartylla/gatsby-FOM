@@ -1,13 +1,12 @@
 import * as React from "react"
-import { StaticImage } from "gatsby-plugin-image"
+import { graphql, Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 //images
-import { graphql } from "gatsby"
 import Img from 'gatsby-image'
-import myImage_1 from "../images/gatsby-astronaut.png"
+
 
 //data pulls in query "data" from below
 const IndexPage = ({data}) => (
@@ -17,18 +16,20 @@ const IndexPage = ({data}) => (
     <div className="Grid--landing">
       {/* left col */}
       <div>
-        <Img 
-          fluid={data.cardGatsbyImage.childImageSharp.fluid}
-          alt="Handmade cards"
-        />
+      <Link to="/cards/">
+          <Img 
+            fluid={data.cardGatsbyImage.childImageSharp.fluid}
+            alt="Handmade cards"
+          />
+      </Link>
       </div>
       {/* middle col */}
-      <div>
+      {/* <div>
         <Img 
           fluid={data.cardGatsbyImage.childImageSharp.fluid}
           alt="Handmade cards"
         />
-      </div>
+      </div> */}
       {/* right col */}
       <div>
         <Img 

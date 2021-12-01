@@ -29,6 +29,13 @@ footer {
     text-align: center;
   }
 }
+nav {
+  & a {
+    font-size: 18px;
+    color: $red-rabbit;
+    font-weight: 600;
+  }
+}
 .nav-logo {
   font-size: 30px;
   //width

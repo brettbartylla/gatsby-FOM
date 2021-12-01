@@ -6,13 +6,13 @@ import NavbarLinks from "./NavbarLinks"
 import Logo from "./Logo"
 
 const Navigation = styled.nav`
-  height: 10vh;
+  height: 60px;
   display: flex;
   background-color: #fff;
   position: relative;
   justify-content: space-between;
   text-transform: uppercase;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   margin: 0 auto;
   padding: 0 5vw;
   z-index: 2;
