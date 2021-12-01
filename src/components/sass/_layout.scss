@@ -35,6 +35,17 @@ nav {
     color: $red-rabbit;
     font-weight: 600;
   }
+
+  & p {
+    position: absolute;
+    width: 250px;
+    top: -8px;
+    left: 82px;
+  }
+
+  & .logo-wrapper {
+    position: relative;
+  }
 }
 .nav-logo {
   font-size: 30px;

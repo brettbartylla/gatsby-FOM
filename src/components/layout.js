@@ -40,9 +40,9 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer>
-          <p>© {new Date().getFullYear()}, all rights reserved</p>
+          {/* <p>© {new Date().getFullYear()}, all rights reserved</p>
           {` `}
-          {/* <a href="https://www.gatsbyjs.org">Gatsby</a> */}
+          <a href="https://www.gatsbyjs.org">Gatsby</a> */}
         </footer>
       </div>
     </>
