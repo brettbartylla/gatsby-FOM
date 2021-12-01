@@ -1,15 +1,14 @@
 import * as React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 const SecondPage = () => (
   <Layout>
-    <Seo title="Page two" />
+    <Seo title="Products" />
     <h1>Products</h1>
     <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
+    {/* <Link to="/">Go back to the homepage</Link> */}
 
 
     {/* turn into component later */}

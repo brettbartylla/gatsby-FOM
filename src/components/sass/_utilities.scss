@@ -19,8 +19,15 @@
 .u-textRight {
   text-align: right;
 }
-//padding
+//positioning
+.u-posAbsolute {
+  position: absolute;
+}
+.u-posRelative {
+  position: relative;
+}
 
+//padding/margin
 $max: 50;
 $offset: 5;
 $unit: "px"; // Feel free to change the unit.

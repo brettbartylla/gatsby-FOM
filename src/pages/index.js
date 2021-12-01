@@ -19,13 +19,11 @@ const IndexPage = () => (
       style={{ marginBottom: `1.45rem` }}
     />
 
-    {/* turn into component later */}
-    <button className="Button--primary u-block m-b-10">primary</button>
-    <button className="Button--secondary u-block">secondary</button>
-    <ul>
+
+    {/* <ul>
       <li><Link to="/">HOME</Link></li>
       <li><Link to="/page-2/">PRODUCTS</Link> </li>
-    </ul>
+    </ul> */}
 
       {/* <Link to="/using-typescript/">Go to "Using TypeScript"</Link> <br />
       <Link to="/using-ssr">Go to "Using SSR"</Link> <br />

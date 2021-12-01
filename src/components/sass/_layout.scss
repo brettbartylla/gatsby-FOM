@@ -14,6 +14,17 @@ body {
   color: hsla(0, 0%, 0%, 0.8);
 }
 
+//remove this later
+header {
+  display: none;
+}
+
+footer {
+  bottom: 0;
+  & p {
+    text-align: center;
+  }
+}
 .nav-logo {
   font-size: 30px;
   //width

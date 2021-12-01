@@ -10,6 +10,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
+import Navbar from "./Navbar/Navbar"
 import "./sass/styles.scss"
 
 
@@ -25,25 +26,23 @@ const Layout = ({ children }) => {
   `)
 
   return (
+    
     <>
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
+    <Navbar />
+      <Header siteTitle={data.site.siteMetadata.title} />
       <div
         style={{
           margin: `0 auto`,
           maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
+          padding: `0px 1.0875rem 1.45rem`,
+          paddingTop: 0,
         }}
       >
         <main>{children}</main>
-        <footer
-          style={{
-            marginTop: `3rem`,
-          }}
-          className="u-textCenter"
-        >
-          © {new Date().getFullYear()}, all rights reserved
+        <footer className="">
+          <p>© {new Date().getFullYear()}, all rights reserved</p>
           {` `}
-          {/* <a href="https://brettbartylla.com">BB</a> */}
+          {/* <a href="https://www.gatsbyjs.org">Gatsby</a> */}
         </footer>
       </div>
     </>
