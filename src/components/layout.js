@@ -37,8 +37,9 @@ const Layout = ({ children }) => {
         <main>{children}</main>
         <footer
           style={{
-            marginTop: `2rem`,
+            marginTop: `3rem`,
           }}
+          className="u-textCenter"
         >
           © {new Date().getFullYear()}, all rights reserved
           {` `}

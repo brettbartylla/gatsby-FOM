@@ -22,9 +22,12 @@ h3 {
 
 p,
 a,
-li {
+li,
+footer {
+  font-family: $primary-font;
 }
 
 a {
   color: $red-rabbit;
+  text-decoration: none;
 }
