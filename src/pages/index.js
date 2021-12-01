@@ -50,15 +50,6 @@ const IndexPage = ({data}) => (
       </div>
 
     </div>
-
-    {/* <ul>
-      <li><Link to="/">HOME</Link></li>
-      <li><Link to="/page-2/">PRODUCTS</Link> </li>
-    </ul> */}
-
-      {/* <Link to="/using-typescript/">Go to "Using TypeScript"</Link> <br />
-      <Link to="/using-dsg">Go to "Using DSG"</Link> */}
-    
   </Layout>
 )
 
