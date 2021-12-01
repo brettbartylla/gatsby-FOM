@@ -11,14 +11,21 @@ const SecondPage = ({data}) => (
     <Seo title="Cards" />
 
     <h1>Cards</h1>
-    <div className="Grid--products">
-    
-      <div>
-        <Img 
-            fluid={data.cardGatsbyImage.childImageSharp.fluid}
-            alt="Handmade cards"
-        />
-      </div>
+    <div className="Grid--products Products">
+      <Link 
+        to="https://www.etsy.com/listing/1113779186/party-animal-holiday-greeting-card?ref=shop_home_active_1"
+        target="_blank"
+      >
+        <div className="u-textCenter">
+          <Img 
+              fluid={data.cardGatsbyImage.childImageSharp.fluid}
+              alt="Handmade cards"
+          />
+          <p className="txt-bold">name of product</p>
+          <p>$6.98</p>
+        </div>
+      </Link>
+
       <div>
         <Img 
             fluid={data.cardGatsbyImage.childImageSharp.fluid}

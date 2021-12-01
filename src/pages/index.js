@@ -20,6 +20,7 @@ const IndexPage = ({data}) => (
           <Img 
             fluid={data.cardGatsbyImage.childImageSharp.fluid}
             alt="Handmade cards"
+            id="cardImg"
           />
       </Link>
       </div>
