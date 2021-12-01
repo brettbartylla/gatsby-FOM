@@ -1,67 +1,42 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-const IndexPage = () => (
+//images
+import { graphql } from "gatsby"
+import Img from 'gatsby-image'
+import myImage_1 from "../images/gatsby-astronaut.png"
+
+//data pulls in query "data" from below
+const IndexPage = ({data}) => (
   <Layout>
     <Seo title="Home" />
-    <h1 class="u-textCenter">Friends Of Mine</h1>
 
-    <div className="landing-Grid">
-      {/* <StaticImage
-        src="../images/gatsby-astronaut.png"
-        width={300}
-        quality={95}
-        formats={["auto", "webp", "avif"]}
-        alt="A Gatsby astronaut"
-        style={{ marginBottom: `1.45rem` }}
-      />
+    <div className="Grid--landing">
+      {/* left col */}
+      <div>
+        <Img 
+          fluid={data.cardGatsbyImage.childImageSharp.fluid}
+          alt="Handmade cards"
+        />
+      </div>
+      {/* middle col */}
+      <div>
+        <Img 
+          fluid={data.cardGatsbyImage.childImageSharp.fluid}
+          alt="Handmade cards"
+        />
+      </div>
+      {/* right col */}
+      <div>
+        <Img 
+          fluid={data.cardGatsbyImage.childImageSharp.fluid}
+          alt="Handmade cards"
+        />
+      </div>
 
-      <StaticImage
-        src="../images/gatsby-astronaut.png"
-        width={300}
-        quality={95}
-        formats={["auto", "webp", "avif"]}
-        alt="A Gatsby astronaut"
-        style={{ marginBottom: `1.45rem` }}
-      />
-
-      <StaticImage
-        src="../images/gatsby-astronaut.png"
-        width={300}
-        quality={95}
-        formats={["auto", "webp", "avif"]}
-        alt="A Gatsby astronaut"
-        style={{ marginBottom: `1.45rem` }}
-      />
-      <StaticImage
-        src="../images/gatsby-astronaut.png"
-        width={300}
-        quality={95}
-        formats={["auto", "webp", "avif"]}
-        alt="A Gatsby astronaut"
-        style={{ marginBottom: `1.45rem` }}
-      />
-
-      <StaticImage
-        src="../images/gatsby-astronaut.png"
-        width={300}
-        quality={95}
-        formats={["auto", "webp", "avif"]}
-        alt="A Gatsby astronaut"
-        style={{ marginBottom: `1.45rem` }}
-      />
-      <StaticImage
-        src="../images/gatsby-astronaut.png"
-        width={300}
-        quality={95}
-        formats={["auto", "webp", "avif"]}
-        alt="A Gatsby astronaut"
-        style={{ marginBottom: `1.45rem` }}
-      /> */}
     </div>
 
     {/* <ul>
@@ -70,10 +45,23 @@ const IndexPage = () => (
     </ul> */}
 
       {/* <Link to="/using-typescript/">Go to "Using TypeScript"</Link> <br />
-      <Link to="/using-ssr">Go to "Using SSR"</Link> <br />
       <Link to="/using-dsg">Go to "Using DSG"</Link> */}
     
   </Layout>
 )
 
 export default IndexPage
+
+
+//image queries
+export const query = graphql`
+  query {
+    cardGatsbyImage: file(relativePath: {eq: "cards.png"}) {
+      childImageSharp {
+        fluid(maxWidth: 2000) {
+        ...GatsbyImageSharpFluid
+        }
+      }
+    }
+  }
+`
