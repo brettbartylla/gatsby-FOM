@@ -20,8 +20,8 @@ const IndexPage = () => (
     />
 
     {/* turn into component later */}
-    <button className="Button--primary">primary</button>
-    <button className="Button--secondary">secondary</button>
+    <button className="Button--primary u-block m-b-10">primary</button>
+    <button className="Button--secondary u-block">secondary</button>
     <p>
       <Link to="/page-2/">Go to page 2</Link> <br />
       <Link to="/using-typescript/">Go to "Using TypeScript"</Link> <br />
