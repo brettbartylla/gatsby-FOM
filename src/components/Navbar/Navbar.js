@@ -8,7 +8,7 @@ import Logo from "./Logo"
 const Navigation = styled.nav`
   height: 60px;
   display: flex;
-  background-color: #fff;
+  ${'' /* background-color: #fff; */}
   position: relative;
   justify-content: space-between;
   text-transform: uppercase;
