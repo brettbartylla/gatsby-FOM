@@ -6,6 +6,7 @@ import Seo from "../components/seo"
 
 //images
 import Img from 'gatsby-image'
+import cardGif from '../images/cards.gif'
 
 
 //data pulls in query "data" from below
@@ -17,11 +18,14 @@ const IndexPage = ({data}) => (
       {/* left col */}
       <div>
       <Link to="/cards/">
+        <div className="imgFlip">
           <Img 
             fluid={data.cardGatsbyImage.childImageSharp.fluid}
             alt="Handmade cards"
-            id="cardImg"
+            className="cardImg"
           />
+          <img src={cardGif} alt="Logo" className="img-top"/>
+        </div>
       </Link>
       </div>
       {/* middle col */}
@@ -33,10 +37,16 @@ const IndexPage = ({data}) => (
       </div> */}
       {/* right col */}
       <div>
-        <Img 
-          fluid={data.cardGatsbyImage.childImageSharp.fluid}
-          alt="Handmade cards"
-        />
+        <Link to="/cards/">
+          <div className="imgFlip">
+            <Img 
+              fluid={data.cardGatsbyImage.childImageSharp.fluid}
+              alt="Handmade cards"
+              className="cardImg"
+            />
+            <img src={cardGif} alt="Logo" className="img-top"/>
+          </div>
+        </Link>
       </div>
 
     </div>
@@ -65,5 +75,5 @@ export const query = graphql`
         }
       }
     }
-  }
+  },
 `
