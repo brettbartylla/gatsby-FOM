@@ -8,17 +8,61 @@ import Seo from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <h1>Header 1</h1>
-    <p>Welcome to your new site.</p>
-    <StaticImage
-      src="../images/gatsby-astronaut.png"
-      width={300}
-      quality={95}
-      formats={["auto", "webp", "avif"]}
-      alt="A Gatsby astronaut"
-      style={{ marginBottom: `1.45rem` }}
-    />
+    <h1 class="u-textCenter">Friends Of Mine</h1>
 
+    <div className="landing-Grid">
+      {/* <StaticImage
+        src="../images/gatsby-astronaut.png"
+        width={300}
+        quality={95}
+        formats={["auto", "webp", "avif"]}
+        alt="A Gatsby astronaut"
+        style={{ marginBottom: `1.45rem` }}
+      />
+
+      <StaticImage
+        src="../images/gatsby-astronaut.png"
+        width={300}
+        quality={95}
+        formats={["auto", "webp", "avif"]}
+        alt="A Gatsby astronaut"
+        style={{ marginBottom: `1.45rem` }}
+      />
+
+      <StaticImage
+        src="../images/gatsby-astronaut.png"
+        width={300}
+        quality={95}
+        formats={["auto", "webp", "avif"]}
+        alt="A Gatsby astronaut"
+        style={{ marginBottom: `1.45rem` }}
+      />
+      <StaticImage
+        src="../images/gatsby-astronaut.png"
+        width={300}
+        quality={95}
+        formats={["auto", "webp", "avif"]}
+        alt="A Gatsby astronaut"
+        style={{ marginBottom: `1.45rem` }}
+      />
+
+      <StaticImage
+        src="../images/gatsby-astronaut.png"
+        width={300}
+        quality={95}
+        formats={["auto", "webp", "avif"]}
+        alt="A Gatsby astronaut"
+        style={{ marginBottom: `1.45rem` }}
+      />
+      <StaticImage
+        src="../images/gatsby-astronaut.png"
+        width={300}
+        quality={95}
+        formats={["auto", "webp", "avif"]}
+        alt="A Gatsby astronaut"
+        style={{ marginBottom: `1.45rem` }}
+      /> */}
+    </div>
 
     {/* <ul>
       <li><Link to="/">HOME</Link></li>
