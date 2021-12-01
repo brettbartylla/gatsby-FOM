@@ -10,7 +10,7 @@ const SecondPage = ({data}) => (
   <Layout>
     <Seo title="Cards" />
 
-    <h1>Cards</h1>
+    <h1 className="u-textCenter">Cards</h1>
     <div className="Grid--products Products">
       <Link 
         to="https://www.etsy.com/listing/1113779186/party-animal-holiday-greeting-card?ref=shop_home_active_1"
