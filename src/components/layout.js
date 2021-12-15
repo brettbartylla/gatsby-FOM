@@ -42,7 +42,7 @@ const Layout = ({ children }) => {
         <footer>
           <p className="m-t-50 m-b-0">© {new Date().getFullYear()}, all rights reserved</p>
           {` `}
-          {/* <a href="https://www.gatsbyjs.org">Gatsby</a> */}
+          {/* <a href="https://www.brettbartylla.dev" target="_blank">brettbartylla.dev</a> */}
         </footer>
       </div>
     </>
