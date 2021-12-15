@@ -7,6 +7,8 @@ import Seo from "../components/seo"
 //images
 import Img from 'gatsby-image'
 import cardGif from '../images/cards.gif'
+import cardVid from '../video/cards_hover.mp4'
+import clothesVid from '../video/clothes_hover.mp4'
 
 
 //data pulls in query "data" from below
@@ -24,7 +26,11 @@ const IndexPage = ({data}) => (
             alt="Handmade cards"
             className="cardImg"
           />
-          <img src={cardGif} alt="Logo" className="img-top"/>
+          <video controls className="img-top" width="250" aria-hidden="true" controls="false" loop>
+            <source src={cardVid} type="video/mp4" />
+          </video>
+
+          {/* <img src={cardGif} alt="Logo" className="img-top"/> */}
         </div>
       </Link>
       </div>
@@ -44,7 +50,10 @@ const IndexPage = ({data}) => (
               alt="Handmade cards"
               className="cardImg"
             />
-            <img src={cardGif} alt="Logo" className="img-top"/>
+            <video controls className="img-top" width="250" aria-hidden="true" controls="false" loop>
+              <source src={clothesVid} type="video/mp4" />
+            </video>
+            {/* <img src={cardGif} alt="Logo" className="img-top"/> */}
           </div>
         </Link>
       </div>
