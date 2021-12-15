@@ -11,8 +11,9 @@ const Navigation = styled.nav`
   ${'' /* background-color: #fff; */}
   position: relative;
   justify-content: space-between;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  margin: 0 auto;
+  border-top: 2.5px solid rgba(0, 0, 0, 1);
+  border-bottom: 2.5px solid rgba(0, 0, 0, 1);
+  margin: 10px auto 0 auto;
   padding: 0 5vw;
   z-index: 2;
   align-self: center;
