@@ -28,7 +28,7 @@ const IndexPage = ({data}) => (
           />
           <div className="img-top">
             <h2 className="u-posAbsolute">cards</h2>
-            <video id="cardVideo" controls width="250" aria-hidden="true" autoplay muted loop>
+            <video muted autoPlay loop id="cardVideo" width="250" aria-hidden="true">
               <source src={cardVid} type="video/mp4" />
             </video>
           </div>
@@ -55,7 +55,7 @@ const IndexPage = ({data}) => (
             />
             <div className="img-top">
               <h2 className="u-posAbsolute">apparel</h2>
-              <video id="apparelVideo" controls width="250" aria-hidden="true" autoplay muted loop>
+              <video muted autoPlay loop id="apparelVideo" width="250" aria-hidden="true">
                 <source src={clothesVid} type="video/mp4" />
               </video>
               {/* <img src={cardGif} alt="Logo" className="img-top"/> */}
