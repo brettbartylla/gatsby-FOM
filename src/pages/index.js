@@ -21,12 +21,12 @@ const IndexPage = ({data}) => (
       <Link to="/cards/">
         <div className="imgFlip">
           <Img 
-              fluid={data.cardGatsbyImage.childImageSharp.fluid}
-              alt="Handmade cards"
-              className="cardImg m-x-40"
-            />
-          <div className="img-top m-x-40">
-            <h1 className="u-posAbsolute">cards</h1>
+            fluid={data.cardGatsbyImage.childImageSharp.fluid}
+            alt="Handmade cards"
+            className="cardImg m-x-40"
+          />
+          <div className="img-top card m-x-40">
+            <h1 className="u-posAbsolute ellipse">CARDS</h1>
             <video muted autoPlay loop id="cardVideo" width="250" aria-hidden="true">
               <source src={cardVid} type="video/mp4" />
             </video>
@@ -50,8 +50,8 @@ const IndexPage = ({data}) => (
               alt="Handmade cards"
               className="cardImg"
             />
-            <div className="img-top">
-              <h1 className="u-posAbsolute">apparel</h1>
+            <div className="img-top apparel">
+              <h1 className="u-posAbsolute apparel ellipse">APPAREL</h1>
               <video muted autoPlay loop id="apparelVideo" width="250" aria-hidden="true">
                 <source src={clothesVid} type="video/mp4" />
               </video>

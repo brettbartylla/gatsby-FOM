@@ -25,10 +25,16 @@ img {
     top: 0;
     left: 0;
     z-index: 99;
-    //center text
     display: flex;
     justify-content: center;
-    align-items: center;
+    
+    &.card {
+      margin-top: -1%;
+    }
+
+    &.apparel {
+      align-items: center;
+    }
   }
   &:hover {
     & .img-top {
@@ -36,4 +42,23 @@ img {
       opacity: 1;
     }
   }
+}
+
+.ellipse {
+  background-color: transparent;
+  height: 45px;
+  width: 230px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  border: 3px solid #000;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+
+#cardVideo {
+  margin-top: 9.5%;
 }
