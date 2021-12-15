@@ -48,7 +48,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-load-script',
       options: {
-        src: '/test-script.js', // Change to the script filename
+        src: '/video.js', // Change to the script filename
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
