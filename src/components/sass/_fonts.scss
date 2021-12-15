@@ -22,12 +22,16 @@ h3 {
 
 p,
 a,
-li,
-footer {
+li {
   font-family: $primary-font;
 }
 
 a {
   color: $red-rabbit;
   text-decoration: none;
+}
+
+footer {
+  font-family: $primary-font;
+  font-size: 12px;
 }

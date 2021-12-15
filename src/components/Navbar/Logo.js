@@ -29,7 +29,7 @@ const Logo = () => {
     <LogoWrap as={Link} to="/">
       <div className="logo-wrapper">
         <Img fluid={data.file.childImageSharp.fluid} alt="logo" />
-        <p>Friends of Mine</p>
+        <p>Friends Of Mine</p>
       </div>
     </LogoWrap>
   )
