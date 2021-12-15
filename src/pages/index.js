@@ -21,11 +21,11 @@ const IndexPage = ({data}) => (
       <Link to="/cards/">
         <div className="imgFlip">
           <Img 
-            fluid={data.cardGatsbyImage.childImageSharp.fluid}
-            alt="Handmade cards"
-            className="cardImg"
-          />
-          <div className="img-top">
+              fluid={data.cardGatsbyImage.childImageSharp.fluid}
+              alt="Handmade cards"
+              className="cardImg m-x-40"
+            />
+          <div className="img-top m-x-40">
             <h1 className="u-posAbsolute">cards</h1>
             <video muted autoPlay loop id="cardVideo" width="250" aria-hidden="true">
               <source src={cardVid} type="video/mp4" />
