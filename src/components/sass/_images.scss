@@ -25,6 +25,10 @@ img {
     top: 0;
     left: 0;
     z-index: 99;
+    //center text
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   &:hover {
     & .img-top {
