@@ -26,7 +26,7 @@
 @media (min-width: $media-lg) {
   .Grid--products {
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 25px;
+    grid-gap: 35px;
 
     & div:first-child {
     }

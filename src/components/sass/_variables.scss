@@ -1,3 +1,7 @@
+@font-face {
+  font-family: Roboto;
+  src: url("/fonts/RobotoMono.ttf");
+}
 //colors
 $primary-color: blue;
 $secondary-color: #333;
@@ -10,7 +14,7 @@ $lilac: #d5bfd0;
 $cream: #fcf5c6;
 
 //fonts
-$primary-font: "Courier New";
+$primary-font: Roboto;
 $secondary-font: Helvetica;
 
 $font-size-body: 16px;
