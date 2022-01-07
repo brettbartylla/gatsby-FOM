@@ -1,0 +1,19 @@
+@import "./variables.scss";
+
+
+.Grid--products {
+  & .item{
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    transition: all .4s;
+    &:hover {
+      transform: perspective(1px) scale(1.03);
+      & p{
+        backface-visibility: hidden;    
+        -webkit-filter: blur(0);
+        text-decoration: underline;
+        text-underline-offset:4px;
+      }
+    }
+  }
+}
