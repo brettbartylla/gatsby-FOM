@@ -1,6 +1,10 @@
 @import "./variables.scss";
 
-
+.Cards-Landing {
+  & h1 {
+    margin: 0 auto 30px auto;
+  }
+}
 .Grid--products {
   & .item{
     -webkit-transition: all .4s;
@@ -17,6 +21,7 @@
     }
   }
   p {
+    color:#000;
     font-size: 18px;
   }
 }

@@ -9,8 +9,8 @@ import Img from 'gatsby-image'
 const SecondPage = ({data}) => (
   <Layout>
     <Seo title="Cards" />
-    <div className="p-l-40 p-r-40 m-l-40 m-r-40">
-      <h1 className="u-textCenter">Cards</h1>
+    <div className="Cards-Landing p-l-40 p-r-40 m-l-40 m-r-40">
+      <h1 className="ellipse">CARDS</h1>
       <div className="Grid--products Products">
         <a 
           href="https://www.etsy.com/listing/1073453475/love-bunny-greeting-card?click_key=d2b82630104b02fd0a990f87a3f0ebc8257255ae%3A1073453475&click_sum=ecda359b&ref=shop_home_active_9"
