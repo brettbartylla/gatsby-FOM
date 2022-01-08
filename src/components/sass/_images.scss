@@ -8,6 +8,11 @@ img {
   height: auto;
   // object-fit: contain!important;
 }
+.gatsby-image-outer-wrapper, 
+.gatsby-image-wrapper {
+  height: 101%; 
+}
+
 .nav-logo {
   font-size: 30px;
   //width
@@ -59,7 +64,6 @@ img {
   font-weight: 600;
 }
 
-
 #cardVideo {
-  margin-top: 9.5%;
+  margin-top: 8.6%;
 }
