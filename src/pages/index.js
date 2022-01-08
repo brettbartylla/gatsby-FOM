@@ -43,7 +43,7 @@ const IndexPage = ({data}) => (
       </div> */}
       {/* right col */}
       <div>
-        <Link to="/cards/">
+        <Link to="/apparel/">
           <div className="imgFlip">
             <Img 
               fluid={data.clothesGatsbyImage.childImageSharp.fluid}
