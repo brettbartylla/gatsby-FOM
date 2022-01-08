@@ -1,4 +1,10 @@
-
-video {
-  width: 100.1%;
+.videoContainer {
+    height:100%;
+    width:100%;
+    overflow: hidden;
+    & video {
+      min-width: 100.1%;
+      min-height: 100%;
+  }
 }
+

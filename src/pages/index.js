@@ -17,22 +17,22 @@ const IndexPage = ({data}) => (
 
     <div className="Grid--landing">
       {/* left col */}
-      <div>
-      <Link to="/cards/">
-        <div className="imgFlip">
-          <Img 
-            fluid={data.cardGatsbyImage.childImageSharp.fluid}
-            alt="Handmade cards"
-            className="cardImg m-x-40"
-          />
-          <div className="img-top card m-x-40">
-            <h1 className="u-posAbsolute ellipse u-posAbsolute">CARDS</h1>
-            <video muted autoPlay loop id="cardVideo" width="250" aria-hidden="true">
-              <source src={cardVid} type="video/mp4" />
-            </video>
+      <div className="m-x-40">
+        <Link to="/cards/">
+          <div className="imgFlip">
+            <Img 
+              fluid={data.cardGatsbyImage.childImageSharp.fluid}
+              alt="Handmade cards"
+              className="cardImg"
+            />
+            <div className="img-top card videoContainer">
+              <h1 className="u-posAbsolute ellipse u-posAbsolute neg-top">CARDS</h1>
+              <video muted autoPlay loop id="cardVideo" width="250" aria-hidden="true">
+                <source src={cardVid} type="video/mp4" />
+              </video>
+            </div>
           </div>
-        </div>
-      </Link>
+        </Link>
       </div>
       {/* middle col */}
       {/* <div>
@@ -50,7 +50,7 @@ const IndexPage = ({data}) => (
               alt="Handmade cards"
               className="cardImg"
             />
-            <div className="img-top apparel">
+            <div className="img-top apparel videoContainer">
               <h1 className="u-posAbsolute apparel ellipse u-posAbsolute">APPAREL</h1>
               <video muted autoPlay loop id="apparelVideo" width="250" aria-hidden="true">
                 <source src={clothesVid} type="video/mp4" />
