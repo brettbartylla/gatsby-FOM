@@ -19,6 +19,7 @@ const Navigation = styled.nav`
   align-self: center;
 
   @media (max-width: 768px) {
+    background-color:#fff1b9;
     position: sticky;
     height: 8vh;
     top: 0;
