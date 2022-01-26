@@ -23,7 +23,7 @@ const SecondPage = ({data}) => (
                 imgStyle={{ objectFit: 'contain' }}
                 alt="bunny bunny tote bag"
             />
-            <p className="txt-bold p-t-10">Bunny Bunny Tote Bag</p>
+            <p className="txt-bold p-t-8">Bunny Bunny Tote Bag</p>
           </div>
         </a>
         <a 
@@ -37,7 +37,7 @@ const SecondPage = ({data}) => (
                 imgStyle={{ objectFit: 'contain' }}
                 alt="take care long sleeve tee, green"
             />
-            <p className="txt-bold p-t-10">Take Care Long Sleeve Tee, Green</p>
+            <p className="txt-bold p-t-8">Take Care Long Sleeve Tee, Green</p>
           </div>
         </a>
         <a 
@@ -51,7 +51,7 @@ const SecondPage = ({data}) => (
                 imgStyle={{ objectFit: 'contain' }}
                 alt="take care long sleeve tee, white"
             />
-            <p className="txt-bold p-t-10">Take Care Long Sleeve Tee, White</p>
+            <p className="txt-bold p-t-8">Take Care Long Sleeve Tee, White</p>
           </div>
         </a>
 

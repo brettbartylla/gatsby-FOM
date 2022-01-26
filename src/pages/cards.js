@@ -23,7 +23,7 @@ const SecondPage = ({data}) => (
                 imgStyle={{ objectFit: 'contain' }}
                 alt="rabbit cards"
             />
-            <p className="txt-bold p-t-10">Love Bunny Greeting Card</p>
+            <p className="txt-bold p-t-8">Love Bunny Greeting Card</p>
           </div>
         </a>
         <a 
@@ -37,7 +37,7 @@ const SecondPage = ({data}) => (
                 imgStyle={{ objectFit: 'contain' }}
                 alt="blue birthday card"
             />
-            <p className="txt-bold p-t-10">Birthday Bunny Greeting Card</p>
+            <p className="txt-bold p-t-8">Birthday Bunny Greeting Card</p>
           </div>
         </a>
         <a 
@@ -51,7 +51,7 @@ const SecondPage = ({data}) => (
                 imgStyle={{ objectFit: 'contain' }}
                 alt="mushroom cards"
             />
-            <p className="txt-bold p-t-10">Fungi Forrest Greeting Card</p>
+            <p className="txt-bold p-t-8">Fungi Forrest Greeting Card</p>
           </div>
         </a>
         <a 
@@ -65,7 +65,7 @@ const SecondPage = ({data}) => (
                 imgStyle={{ objectFit: 'contain' }}
                 alt="red birthday card"
             />
-            <p className="txt-bold p-t-10">Birthday Bunny Greeting Card</p>
+            <p className="txt-bold p-t-8">Birthday Bunny Greeting Card</p>
           </div>
         </a>
         <a 
@@ -79,7 +79,7 @@ const SecondPage = ({data}) => (
                 imgStyle={{ objectFit: 'contain' }}
                 alt="happy cards"
             />
-            <p className="txt-bold p-t-10">So Happy Greeting Card</p>
+            <p className="txt-bold p-t-8">So Happy Greeting Card</p>
           </div>
         </a>
         <a 
@@ -93,7 +93,7 @@ const SecondPage = ({data}) => (
                 imgStyle={{ objectFit: 'contain' }}
                 alt="christmas cards"
             />
-            <p className="txt-bold p-t-10">Party Animal Holiday Card</p>
+            <p className="txt-bold p-t-8">Party Animal Holiday Card</p>
           </div>
         </a>
         <a 
@@ -107,7 +107,7 @@ const SecondPage = ({data}) => (
                 imgStyle={{ objectFit: 'contain' }}
                 alt="mummy cards"
             />
-            <p className="txt-bold p-t-10">I'm a Mummy Halloween Card</p>
+            <p className="txt-bold p-t-8">I'm a Mummy Halloween Card</p>
           </div>
         </a>
         <a 
@@ -121,7 +121,7 @@ const SecondPage = ({data}) => (
                 imgStyle={{ objectFit: 'contain' }}
                 alt="ghost cards"
             />
-            <p className="txt-bold p-t-10">I'm a Ghost Halloween Card</p>
+            <p className="txt-bold p-t-8">I'm a Ghost Halloween Card</p>
           </div>
         </a>
         <a 
@@ -135,7 +135,7 @@ const SecondPage = ({data}) => (
                 imgStyle={{ objectFit: 'contain' }}
                 alt="witch cards"
             />
-            <p className="txt-bold p-t-10">I'm a Witch Halloween Card</p>
+            <p className="txt-bold p-t-8">I'm a Witch Halloween Card</p>
           </div>
         </a>
       </div>
