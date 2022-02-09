@@ -10,6 +10,7 @@
     "gatsby-image": "^3.11.0",
     "gatsby-plugin-gatsby-cloud": "^4.2.0",
     "gatsby-plugin-google-analytics": "^4.2.0",
+    "gatsby-plugin-google-gtag": "^4.7.0",
     "gatsby-plugin-gtag": "^1.0.13",
     "gatsby-plugin-image": "^2.2.0",
     "gatsby-plugin-load-script": "^1.1.0",
