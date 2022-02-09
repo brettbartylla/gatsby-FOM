@@ -6,7 +6,7 @@ import { Link, useStaticQuery, graphql } from "gatsby"
 
 const LogoWrap = styled.div`
   margin: auto 0;
-  flex: 0 1 65px;
+  flex: 0 1 62px;
 
   @media (max-width: 768px) and (orientation: landscape) {
     flex: 0 1 25px;
@@ -15,7 +15,7 @@ const LogoWrap = styled.div`
 const Logo = () => {
   const data = useStaticQuery(graphql`
     query {
-      file(name: { eq: "FOM-logo" }, extension: { eq: "png" }) {
+      file(name: { eq: "fom_logo" }, extension: { eq: "webp" }) {
         childImageSharp {
           fluid(maxWidth: 50, pngQuality: 80) {
             ...GatsbyImageSharpFluid
