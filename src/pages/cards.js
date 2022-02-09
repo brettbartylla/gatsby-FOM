@@ -135,7 +135,7 @@ const SecondPage = ({data}) => (
                 imgStyle={{ objectFit: 'contain' }}
                 alt="witch cards"
             />
-            <p className="txt-bold p-t-8">I'm a Witch Halloween Card</p>
+            <p className="txt-bold p-t-8">I'm A Witch Halloween Card</p>
           </div>
         </a>
       </div>
