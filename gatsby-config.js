@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `FOM <3`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    description: `Friends Of Mine is a sustainably conscious stationery and apparel brand founded by two friends, Claire Loes and Garance Rousseau. FOM products are designed and made by hand in Minneapolis and Los Angeles.`,
+    author: `brett bartylla`,
+    siteUrl: `https://www.friendsofmine.shop`,
   },
   plugins: [
     {
