@@ -14,54 +14,52 @@ import clothesVid from '../video/clothes_hover.mp4'
 const IndexPage = ({data}) => (
   <Layout>
     <Seo title="Home" />
-    <div className="parent">
-      <div className="Grid--landing">
-        {/* left col */}
-        <div className="cards-pad border-btm">
-          <Link to="/cards/">
-            <div className="imgFlip">
-              <Img 
-                fluid={data.cardGatsbyImage.childImageSharp.fluid}
-                alt="Handmade cards"
-                className="cardImg"
-              />
-              <div className="img-top card videoContainer">
-                <h1 className="u-posAbsolute ellipse u-posAbsolute neg-top">CARDS</h1>
-                <video muted autoPlay loop id="cardVideo" width="250" aria-hidden="true">
-                  <source src={cardVid} type="video/mp4" />
-                </video>
-              </div>
-            </div>
-          </Link>
-        </div>
-        {/* middle col */}
-        {/* <div>
-          <Img 
-            fluid={data.cardGatsbyImage.childImageSharp.fluid}
-            alt="Handmade cards"
-          />
-        </div> */}
-        {/* right col */}
-        <div>
-          <Link to="/apparel/">
-            <div className="imgFlip border-btm">
-              <Img 
-                fluid={data.clothesGatsbyImage.childImageSharp.fluid}
-                alt="Handmade cards"
-                className="cardImg"
-              />
-              <div className="img-top apparel videoContainer">
-                <h1 className="u-posAbsolute apparel ellipse u-posAbsolute">APPAREL</h1>
-                <video muted autoPlay loop id="apparelVideo" width="250" aria-hidden="true">
-                  <source src={clothesVid} type="video/mp4" />
-                </video>
-              </div>
-            </div>
-          </Link>
-        </div>
 
+    <div className="Grid--landing">
+      {/* left col */}
+      <div className="cards-pad border-btm">
+        <Link to="/cards/">
+          <div className="imgFlip">
+            <Img 
+              fluid={data.cardGatsbyImage.childImageSharp.fluid}
+              alt="Handmade cards"
+              className="cardImg"
+            />
+            <div className="img-top card videoContainer">
+              <h1 className="u-posAbsolute ellipse u-posAbsolute neg-top">CARDS</h1>
+              <video muted autoPlay loop id="cardVideo" width="250" aria-hidden="true">
+                <source src={cardVid} type="video/mp4" />
+              </video>
+            </div>
+          </div>
+        </Link>
       </div>
-</div>
+      {/* middle col */}
+      {/* <div>
+        <Img 
+          fluid={data.cardGatsbyImage.childImageSharp.fluid}
+          alt="Handmade cards"
+        />
+      </div> */}
+      {/* right col */}
+      <div>
+        <Link to="/apparel/">
+          <div className="imgFlip border-btm">
+            <Img 
+              fluid={data.clothesGatsbyImage.childImageSharp.fluid}
+              alt="Handmade cards"
+              className="cardImg"
+            />
+            <div className="img-top apparel videoContainer">
+              <h1 className="u-posAbsolute apparel ellipse u-posAbsolute">APPAREL</h1>
+              <video muted autoPlay loop id="apparelVideo" width="250" aria-hidden="true">
+                <source src={clothesVid} type="video/mp4" />
+              </video>
+            </div>
+          </div>
+        </Link>
+      </div>
+    </div>
   </Layout>
 )
 
