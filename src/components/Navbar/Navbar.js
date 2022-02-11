@@ -14,7 +14,7 @@ const Navigation = styled.nav`
   border-top: 2.5px solid rgba(0, 0, 0, 1);
   border-bottom: 2.5px solid rgba(0, 0, 0, 1);
   margin: 10px auto 0 auto;
-  padding: 0 5vw;
+  padding: 0 28px;
   z-index: 2;
   align-self: center;
 
