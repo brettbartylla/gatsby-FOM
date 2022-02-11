@@ -71,12 +71,12 @@ const IndexPage = ({data}) => (
     </p>
     <ul className="p-t-5 social-list u-textCenter m-r-20">
         <li className="u-inlineBlock">
-          <a href="https://www.instagram.com/byfriendsofmine/" target="_blank">
+          <a href="https://www.instagram.com/byfriendsofmine/" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faInstagram} />
           </a>
         </li>
         <li className="u-inlineBlock">
-          <a href="mailto:by.friendsofmine@gmail.com">
+          <a href="mailto:by.friendsofmine@gmail.com" rel="noreferrer">
             <FontAwesomeIcon icon={faEnvelopeOpen} />
           </a>
         </li>
