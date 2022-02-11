@@ -2,6 +2,10 @@ import * as React from "react"
 import { graphql, Link } from "gatsby"
 
 import Layout from "../components/layout"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelopeOpen } from '@fortawesome/free-regular-svg-icons'
+import { faInstagram } from '@fortawesome/free-brands-svg-icons'
+
 import Seo from "../components/seo"
 
 //images
@@ -63,7 +67,20 @@ const IndexPage = ({data}) => (
     <p className="p-l-30 p-r-30 u-textCenter">
       Friends Of Mine is a sustainably conscious stationery and apparel brand founded by two friends, Claire Loes and Garance Rousseau. 
       <br />
-      FOM products are designed and made by hand in Minneapolis and Los Angeles.</p>
+      FOM products are designed and made by hand in Minneapolis and Los Angeles.
+      <ul className="p-t-15 social-list">
+        <li className="u-inlineBlock">
+          <a href="https://www.instagram.com/byfriendsofmine/" target="_blank">
+            <FontAwesomeIcon icon={faInstagram} />
+          </a>
+        </li>
+        <li className="u-inlineBlock">
+          <a href="mailto:by.friendsofmine@gmail.com">
+            <FontAwesomeIcon icon={faEnvelopeOpen} />
+          </a>
+        </li>
+      </ul>
+    </p>
   </Layout>
 )
 

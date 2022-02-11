@@ -23,6 +23,20 @@ header {
 main {
   margin-top: 25px;
 }
+.social-list {
+   & :first-of-type {
+     a {
+      font-size: 28px;
+     }
+    }
+    & :last-of-type {
+      a {
+       font-size: 25px;
+       position: absolute;
+       margin-top: -25px;
+      }
+    }
+}
 
 footer {
   bottom: 0;
