@@ -64,11 +64,12 @@ const IndexPage = ({data}) => (
         </Link>
       </div>
     </div>
-    <p className="p-l-30 p-r-30 u-textCenter">
+    <p className="u-textCenter">
       Friends Of Mine is a sustainably conscious stationery and apparel brand founded by two friends, Claire Loes and Garance Rousseau. 
       <br />
       FOM products are designed and made by hand in Minneapolis and Los Angeles.
-      <ul className="p-t-15 social-list">
+    </p>
+    <ul className="p-t-5 social-list u-textCenter m-r-20">
         <li className="u-inlineBlock">
           <a href="https://www.instagram.com/byfriendsofmine/" target="_blank">
             <FontAwesomeIcon icon={faInstagram} />
@@ -80,7 +81,6 @@ const IndexPage = ({data}) => (
           </a>
         </li>
       </ul>
-    </p>
   </Layout>
 )
 

@@ -40,9 +40,8 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer>
-          <p className="m-t-50 m-b-0">© {new Date().getFullYear()}, all rights reserved</p>
+          <p className="m-t-10 m-b-0">© {new Date().getFullYear()}, all rights reserved <a href="https://www.brettbartylla.dev" target="_blank" className="u-txtUnderline">brettbartylla.dev</a></p>
           {` `}
-          {/* <a href="https://www.brettbartylla.dev" target="_blank">brettbartylla.dev</a> */}
         </footer>
       </div>
     </>

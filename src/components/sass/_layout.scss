@@ -24,6 +24,20 @@ main {
   margin-top: 25px;
 }
 .social-list {
+  & ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  & li {
+    margin: 0 0px;
+  }
+
    & :first-of-type {
      a {
       font-size: 28px;
