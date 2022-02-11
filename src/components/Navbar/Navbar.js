@@ -96,14 +96,13 @@ const Navbar = () => {
   return (
     <Navigation>
       <Logo />
-      <Toggle
+      {/* <Toggle
         navbarOpen={navbarOpen}
         onClick={() => setNavbarOpen(!navbarOpen)}
       >
-        {/* 
-         hiding hamburger menu for now 
-        {navbarOpen ? <Hamburger open /> : <Hamburger />} */}
-      </Toggle>
+        
+        {navbarOpen ? <Hamburger open /> : <Hamburger />}
+      </Toggle> */}
       {navbarOpen ? (
         <Navbox>
           <NavbarLinks />
