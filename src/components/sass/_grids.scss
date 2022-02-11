@@ -9,14 +9,24 @@
   .Grid--landing {
     grid-template-columns: 2fr 3fr;
     grid-auto-flow: column;
-    grid-gap: 25px;
-    padding: 0px 28px 0px;
-
+    // grid-gap: 25px;
+    margin: 0px 28px 0px 28px;
+    padding: 28px 15px 0px 15px;
+    border:solid 2px black;
+  
     & div:first-child {
+     
     }
     & div:last-child {
+
     }
   }
+}
+// .border-btm {
+//   border-bottom: solid black 2px;
+// }
+.cards-pad {
+  padding: 50px 70px 0px 70px;
 }
 
 //product page grids
