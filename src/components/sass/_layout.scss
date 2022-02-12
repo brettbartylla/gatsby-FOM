@@ -5,6 +5,8 @@ html {
   -webkit-text-size-adjust: 100%;
   font: 112.5%/1.45em georgia, serif, sans-serif;
   box-sizing: border-box;
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
 }
 
 body {
@@ -13,7 +15,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: hsla(0, 0%, 0%, 0.8);
   background-color: $cream;
+  &::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+  }
 }
+
 
 //remove this later
 header {
